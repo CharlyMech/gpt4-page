@@ -1,0 +1,116 @@
+body {
+	background: linear-gradient(to bottom, #283c86, #45a247);
+	color: #fff;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+hr {
+	border: none;
+	border-top: 2px solid #fff;
+	margin: 20px 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin: 10px 0;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.skills li {
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+.experience li {
+	margin-left: 40px;
+	position: relative;
+}
+
+.experience li h4 {
+	margin: 0 0 10px 0;
+}
+
+.experience li p {
+	margin: 0 0 5px 0;
+}
+
+.experience li ul {
+	margin: 0;
+}
+
+.contact li {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.contact li svg {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+}
+
+.contact li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	.experience li {
+		margin-left: 20px;
+	}
+}
